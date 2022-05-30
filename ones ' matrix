@@ -1,0 +1,4 @@
+import numpy as np
+x=int(input('enter the order of square matrix : '))
+a=np.ones([x,x],dtype=int)
+print(a)

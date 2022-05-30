@@ -1,0 +1,31 @@
+import numpy as np
+a=[]
+b=[]
+s1=int(input('enter the size : '))
+print('enter the elements :')
+for i in range(0,s1):
+    e1=int(input())
+    a.append(e1)
+s2=int(input('enter the size : '))
+print('enter the elements :')
+for i in range(0,s2):
+    e2=int(input())
+    b.append(e2)
+arr=np.array([a,b])
+print(arr)
+c=[]
+d=[]
+s3=int(input('enter the size : '))
+print('enter the elements :')
+for i in range(0,s3):
+    e3=int(input())
+    c.append(e3)
+s4=int(input('enter the size : '))
+print('enter the elements :')
+for i in range(0,s4):
+    e4=int(input())
+    d.append(e4)
+arr1=np.array([c,d])
+print(arr1)
+print(np.add(arr,arr1))
+print(np.subtract(arr,arr1))
